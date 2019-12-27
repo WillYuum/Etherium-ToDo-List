@@ -52,7 +52,6 @@ App = {
         App.contracts.TodoList.setProvider(App.web3Provider)
 
         App.todoList = await App.contracts.TodoList.deployed()
-        console.log("here", App.account)
     },
 
     render: async () => {
