@@ -11,6 +11,8 @@ To migrate contract:
 
 --reset: is used when ganache is running with old contracts
 
+`migrate`: means that it gives for every block the contract functionality
+
 ### Tools Used:
 
 * Truffle
